@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.schedule {
+    border: 3px solid rgb(240, 49, 49);
+    border: 1px solid black;
+    caption-side: bottom;
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 900px;
+}
+
+
+
+.schedule th, .schedule td {
+    padding: 20px;
+    vertical-align: middle;
+}
+
+td {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+.schedule thead tr {
+    background-color: rgb(245, 132, 132);
+    color: rgb(255, 255, 255);
+}
+
+.schedule tfoot tr {
+    background-color: rgb(245, 132, 132);
+    color: rgb(255, 255, 255);
+}
+
+.odd {
+    background-color: rgb(255, 219, 219);
+}
+
+.schedule tr:nth-child(6) {
+    background-color: rgb(218, 217, 217);
+}
+
+.schedule th {
+    background-color: rgb(247, 185, 71);
+}
+
+ol {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+li {
+    color:rgb(245, 132, 132);
+}
