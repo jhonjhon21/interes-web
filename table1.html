@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="table.css"></src>
+
+</head>
+<body>
+    <header><h1>Web Designe Schedule</h1></header>
+    <main>
+        <table class="schedule">
+            <caption> Course schedule</caption>
+            <thead>
+                <tr>
+                    <th>Department.</th>
+                    <th>Number</th>
+                    <th>Time</th>
+                    <th>Location</th>
+                    <th>Credits</th>
+                </tr>
+
+            </thead>
+            <tbody>
+                <tr>
+                    <th colspan="5">Winter 2025</th>
+                </tr>
+                <tr>
+                    <tr class="odd">   
+                        <td>Cs</td>
+                        <td>140</td>
+                        <td>11:00-11:50am</td>
+                        <td>p3</td>
+                        <td>3</td>
+                    </tr> 
+                </tr>
+
+                <tr>
+                    <td>Cs</td>
+                    <td>140</td>
+                    <td>11:00-11:50am</td>
+                    <td>p3</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>Cs</td>
+                    <td>140</td>
+                    <td>11:00-11:50am</td>
+                    <td>p3</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>Cs</td>
+                    <td>140</td>
+                    <td>11:00-11:50am</td>
+                    <td>p3</td>
+                    <td>3</td>
+                </tr>
+
+                <tr>
+                    <th colspan="5">Spring 2025</th>
+                </tr>
+
+                <tr>
+                    <td>Cs</td>
+                    <td>140</td>
+                    <td>11:00-11:50am</td>
+                    <td>p3</td>
+                    <td>3</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <th colspan="4" id="total-credits">Total Credits</th>
+                    <td headers="total-credits"> 12</td>
+                </tr>
+            </tfoot>
+
+        </table>
+
+        <ol>
+            <h3> <li>Why don't we use the border attribute?</li></h3>
+                 <p>The border attribute is outdated and not recommended in modern web design. Instead, we use CSS to style borders for better flexibility, control, and maintainability.</p>
+            <h3> <li>What is the easiest way to color every other row a different color?</li></h3>
+                <p>The easiest way is by using the CSS :nth-child pseudo-class. For example, tr:nth-child(even) { background-color: #f2f2f2; } colors every even row.</p>
+        </ol>
+    </main>
+
+    <footer>
+        &copy: Jhonattan Rabello 2025
+    </footer>
+</body>
+</html>
